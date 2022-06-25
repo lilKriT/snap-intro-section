@@ -1,0 +1,23 @@
+{
+  "name": "snap-intro-section",
+  "version": "1.0.0",
+  "description": "An intro section with dropdown navigation. A challenge for FrontEnd Mentor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilKriT/snap-intro-section.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilKriT/snap-intro-section/issues"
+  },
+  "homepage": "https://github.com/lilKriT/snap-intro-section#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
