@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navLink {
+    @apply bg-blue-300 h-full px-8 flex items-center;
+  }
+}
