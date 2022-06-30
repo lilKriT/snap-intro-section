@@ -14,6 +14,9 @@ module.exports = {
       fontSize: {
         base: "1.125rem",
       },
+      backgroundImage: {
+        "arrow-down": "url('/images/icon-arrow-down.svg')",
+      },
     },
   },
   plugins: [],
