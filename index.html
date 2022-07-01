@@ -42,7 +42,9 @@
               <img
                 src="./images/icon-arrow-up.svg"
                 alt=""
-                class="ml-2 hidden group-hover:block" /><img
+                class="ml-2 hidden group-hover:block" />
+              <!-- Down Arrow -->
+              <img
                 src="./images/icon-arrow-down.svg"
                 alt=""
                 class="ml-2 block group-hover:hidden"
@@ -107,11 +109,13 @@
     </header>
 
     <!-- Main section -->
-    <main class="flex justify-center mb-20">
+    <main class="flex justify-center">
       <!-- Columns -->
-      <div class="w-4/5 max-w-7xl flex justify-between">
+      <div
+        class="lg:w-4/5 max-w-7xl flex justify-between flex-col-reverse lg:flex-row"
+      >
         <!-- Left column -->
-        <div class="basis-5/12 flex flex-col justify-end gap-12 items-start">
+        <div class="lg:basis-5/12 flex flex-col justify-end gap-12 items-start">
           <h1 class="text-7xl font-bold">Make<br />remote work</h1>
           <p class="text-mediumGray">
             Get your team in sync, no matter your location. Streamline
@@ -159,7 +163,7 @@
           </ul>
         </div>
         <!-- Right column -->
-        <picture class="hero basis-5/12">
+        <picture class="hero lg:basis-5/12">
           <source
             media="(max-width: 768px)"
             srcset="./images/image-hero-mobile.png"
