@@ -14,11 +14,4 @@
   .carouselLink {
     @apply hover:scale-110 transition-all duration-300 ease-in-out;
   }
-
-  .arrowDown:after {
-    content: "";
-    width: 16px;
-    height: 16px;
-    background: url("./images/icon-arrow-down.svg");
-  }
 }
