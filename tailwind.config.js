@@ -16,6 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         "arrow-down": "url('/images/icon-arrow-down.svg')",
+        "arrow-up": "url('/images/icon-arrow-up.svg')",
       },
     },
   },
