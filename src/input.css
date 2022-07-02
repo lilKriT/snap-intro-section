@@ -7,6 +7,10 @@
     @apply h-full text-mediumGray hover:text-almostBlack px-4 flex items-center transition-all duration-300 ease-in-out;
   }
 
+  .mobileNavLink {
+    @apply text-mediumGray block py-2;
+  }
+
   .dropdownMenu {
     @apply bg-almostWhite text-mediumGray hover:text-almostBlack drop-shadow-[0_0_35px_rgba(0,0,0,0.25)] rounded-xl px-6 py-4 flex flex-col gap-2 transition-all duration-300 ease-in-out;
   }
