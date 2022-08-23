@@ -685,6 +685,10 @@ video {
   max-width: 80rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-col {
   flex-direction: column;
 }
