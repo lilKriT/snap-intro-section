@@ -17,11 +17,6 @@ const submenuLinks = document.querySelectorAll(".submenuLink");
 
 for (const link of submenuLinks) {
   link.addEventListener("click", () => {
-    // console.log(link.textContent);
-    // console.log(link.nextSibling);
-    // console.log(link.nextElementSibling);
-    // console.log(link.lastChild);
-    console.log(link.lastElementChild);
     link.nextElementSibling.classList.toggle("hidden");
     link.lastElementChild.classList.toggle("rotate-180");
   });
