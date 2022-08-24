@@ -895,6 +895,11 @@ video {
   color: hsl(0 0% 8% / var(--tw-text-opacity));
 }
 
+.group[open] .group-open\:bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:visible {
   visibility: visible;
 }
@@ -905,6 +910,11 @@ video {
 
 .group:hover .group-hover\:hidden {
   display: none;
+}
+
+.group:hover .group-hover\:bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:opacity-100 {

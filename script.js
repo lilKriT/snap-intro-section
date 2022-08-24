@@ -12,3 +12,14 @@ closeMobileMenuButton.addEventListener("click", () => {
 openMobileMenuButton.addEventListener("click", () => {
   mobileMenu.classList.remove("hidden");
 });
+
+const submenuLinks = document.querySelectorAll(".submenuLink");
+
+for (const link of submenuLinks) {
+  link.addEventListener("click", () => {
+    // console.log(link.textContent);
+    // console.log(link.nextSibling);
+    console.log(link.nextElementSibling);
+    link.nextElementSibling.classList.remove("hidden");
+  });
+}
