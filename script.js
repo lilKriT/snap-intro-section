@@ -19,7 +19,10 @@ for (const link of submenuLinks) {
   link.addEventListener("click", () => {
     // console.log(link.textContent);
     // console.log(link.nextSibling);
-    console.log(link.nextElementSibling);
-    link.nextElementSibling.classList.remove("hidden");
+    // console.log(link.nextElementSibling);
+    // console.log(link.lastChild);
+    console.log(link.lastElementChild);
+    link.nextElementSibling.classList.toggle("hidden");
+    link.lastElementChild.classList.toggle("rotate-180");
   });
 }
